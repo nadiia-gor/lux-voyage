@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer--container">
-            <Link to="/"><img src="/src/assets/images/logo.png" alt="lux-voyage-logo" /></Link>
+            <Link to="/"><img src="images/logo.png" alt="lux-voyage-logo" /></Link>
                 <div className="footer--items-container">
                     <div className="contact-container">
                     <h4>Kontact</h4>
