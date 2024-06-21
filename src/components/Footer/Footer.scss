@@ -1,0 +1,45 @@
+.footer--container {
+  border-top: 1px outset #b0801d;
+  display: flex;
+  gap: 57%;
+  padding: 2% 8%;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer--items-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .social-media-container {
+      display: flex;
+      gap: 25px;
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        padding: 4%;
+        svg {
+          width: 30px;
+          height: 30px;
+          fill: #fff;
+        }
+      }
+
+      .icon:hover {
+        background: -webkit-linear-gradient(45deg, #37444f, #ffe4b6, #b0801d);
+        transition: 0.3s ease;
+        cursor: pointer;
+      }
+    }
+  }
+}

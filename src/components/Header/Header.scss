@@ -1,0 +1,40 @@
+.header--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 8%;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .header--nav-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    nav {
+      ul {
+        display: flex;
+        gap: 20%;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        a:hover {
+          color: #ffe4b6;
+          transition: 0.5s ease;
+        }
+
+        li {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      fill: #fff;
+    }
+  }
+}
